@@ -1,4 +1,4 @@
-# Transformer_Rotary_Diagnosis
+# Domain-collaborative_multimodal_fault_diagnosis_of_rotating_machines
 
 Rotating machines are essential in industrial applications, but fault diagnosis under noisy conditions remains a challenge due to the complexity and diversity of fault types. This study introduces a **multimodal transformer network** leveraging time-frequency separation to improve robustness and accuracy in noisy environments.
 
