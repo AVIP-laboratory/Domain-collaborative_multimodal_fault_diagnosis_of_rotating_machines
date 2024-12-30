@@ -37,7 +37,7 @@ for file in files:
     for sample_idx in range(num_samples):
         for timestep_idx in range(time_steps):
             current_sequence = reshaped_data[sample_idx, timestep_idx]
-            rp_matrix = rp.transform(current_sequence.reshape(1, -1))  # (1, sequence_length)로 변환
+            rp_matrix = rp.transform(current_sequence.reshape(1, -1))
             rp_data[sample_idx, timestep_idx] = rp_matrix
 
         # Progress status output
