@@ -3,7 +3,7 @@ import pandas as pd
 from pyts.image import RecurrencePlot
 import matplotlib.pyplot as plt
 
-files = ["Vibration","Current_X","Current_Y","Current_Z"]
+files = ["Vibration","Current_R","Current_S","Current_T"]
 
 for file in files:
     csv_file = f'Test_{file}_Norm(FS 2000Hz, 1s).csv'
