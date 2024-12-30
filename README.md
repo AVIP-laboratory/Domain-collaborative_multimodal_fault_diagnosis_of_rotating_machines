@@ -38,14 +38,17 @@ The RP example images generated from both time and frequency can be found at the
 - **RP Images**: `/RP example image`
 
 ### Final Data Shape:
-- **Training Data:** 45,000 samples with shape `(45000, 35, 20, 20, 4)`
-- **Test Data:** 5,000 samples with shape `(5000, 35, 20, 20, 4)`
 
 The training model uses the following input data:
 
-- **Time Train Data**: Shape `(45000, 35, 20, 20, 4)`
-- **Frequency Train Data**: Shape `(45000, 35, 20, 20, 4)`
-
+- **Training Data:**
+  - **Time Train Data**: 45,000 time samples with shape `(45000, 35, 20, 20, 4)`
+  - **Frequency Train Data**: 45,000 FFT samples with shape `(45000, 35, 20, 20, 4)`
+    
+- **Test Data:**
+  - **Time Test Data**: 5,000 time samples with shape `(5000, 35, 20, 20, 4)`
+  - **Frequency Test Data**: 5,000 FFT samples with shape `(5000, 35, 20, 20, 4)`
+  
 ## Model Training and Testing Code
 
 The main code for the **Domain-Collaborative Multimodal Fault Diagnosis** project is named **'Cross #6'**. Additionally, the table below summarizes the ablation study conducted on different model configurations.
