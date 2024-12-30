@@ -23,12 +23,14 @@ The dataset includes vibration and current data from three phases(R,S,T), with f
 - **Training Data:** 45,000 samples per phase (vibration and current data from each phase)
 - **Test Data:** 5,000 samples per phase (vibration and current data from each phase)
 
-## Recurrence Plot (RP) Creation
+## Multimodal Data Creation
 
-The four Recurrence Plot (RP) images generated for time and the four RP images generated for frequency are merged as channels, and the resulting data is stored as a numpy array.
+The time-series signal is divided into 35 time steps, each with 20 sequential data points, and four Recurrence Plot (RP) images are generated for each time step, one for each type of time-series data. Similarly, the frequency data is divided into 35 frequency regions, each covering a 20 Hz range, with four RP images generated for each frequency segment.
+
+The time and frequency RP images are merged by each channel and stored.
 
 ### RP Creation Code
-The code used for generating the Recurrence Plot (RP) can be found at the following location:
+The code used for generating the RP can be found at the following location:
 
 - **Code for RP Creation**: `/Data Processing Code/Recurrence Plot Create Code.py`
 
