@@ -75,6 +75,15 @@ Inside each directory, you can find:
   - Training history graphs
   - Confusion matrices
 
+### Noise test result
+
+The noise levels NL<sub>0</sub>, NL<sub>1</sub>, NL<sub>2</sub>, NL<sub>3</sub>, NL<sub>4</sub>, NL<sub>5</sub> and NL<sub>6</sub> were set to 22.8, -16.9, -13.3, -10.8, -8.8, and -7.3 dB, respectively. The model accuracy results for each noise level are presented in the table.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/32a0b6f8-8f75-42e6-a6cb-e8a9ffe8c6ff" alt="Image" />
+</p>
+
+
 For additional details, you can explore the respective files in the specified directory.
 
 
